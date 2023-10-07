@@ -39,7 +39,7 @@ app.use(express.json())
 app.use('/api/parking'  , parkRoute )
 // app.use('/api/user' , userRoute)
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.listen(port,() =>
 console.log(`MY Server is Running`)
